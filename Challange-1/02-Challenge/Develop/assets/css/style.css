@@ -35,13 +35,13 @@ body {
 
 .header div ul {
     list-style-type: none;
-    display: inline;
+    display: inline-block;
 }
 
 .header div ul li {
-    position: absolute;
+    position: static;
     right: 20px;
-    display: inline-block;
+    display: inline;
     margin-left: 25px;
 }
 
